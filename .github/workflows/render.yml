@@ -1,0 +1,8 @@
+name: DhamuMack Renderer
+on:
+  workflow_dispatch:
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'Renderer workflow ready'
